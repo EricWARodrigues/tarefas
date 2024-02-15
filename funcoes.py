@@ -77,13 +77,13 @@ def inserir_tarefa():
             else:
                 print('Data inválida, tente novamente.')
     else:
-        data_fim == "N/A"
+        data_fim = "N/A"
     nova_tarefa = {
         "data_inclusao": datetime.now().strftime('%d/%m/%Y'),
         "data_inicio": data_inicio,
         "nome_tarefa": nome_tarefa,
         "categoria": categoria_tarefa,
-        "prioridade": nivel_prioridade(num_prioridade),
+        "prioridade": manutencao_caracteres(nivel_prioridade(num_prioridade)),
         "data_prevista_fim": data_fim,
         "data_fim": "N/A",
         "status": status
