@@ -1,0 +1,19 @@
+{
+  "_default": {
+    "1": {
+      "status": "nao iniciada"
+    },
+    "2": {
+      "status": "em curso"
+    },
+    "3": {
+      "status": "atrasada"
+    },
+    "4": {
+      "status": "concluida"
+    },
+    "5": {
+      "status": "cancelada"
+    }
+  }
+}
